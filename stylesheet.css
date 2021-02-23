@@ -1,0 +1,239 @@
+.body{
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.body-wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.top-wrapper{
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h2:before {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 5px;
+    content: '';
+    border-radius: 3px;
+    background: rgb(248, 5, 5);
+}
+
+.top-contents{
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.top-contents span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.recommend{
+    text-align: center;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    padding-bottom: 90px;
+
+}
+
+.recommend h3{
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-left: 4px solid #000;
+    font-size: 25px;
+}
+
+.recommend p{
+    font-size: 18px;
+}
+
+.table-wrapper{
+    padding: 1rem 2rem;
+    border: 3px dotted #000;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+}
+
+.table-wrapper p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.table-wrapper ol{
+    display: inline-block;
+    width: 400px;
+    font-size: 18px;
+}
+
+.number{
+    padding: 0 40px;
+}
+.number h4{
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2rem 1.5rem 130px;
+    border-top: 3px solid #000;
+}
+
+.number h4:before{
+    position: absolute;
+    top: -150%;
+    left: -100px;
+    width: 200px;
+    height: 300%;
+    content: '';
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    background: #000;
+}
+
+.number h4 span {
+    font-size: 30px;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-top: 3px;
+    padding-left: 16px;
+    color: #fff;
+}
+
+.semi-title{
+    font-size: 25px;
+}
+
+.recommend-vlog{
+    margin: 1rem;
+}
+
+.youtube iframe {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.impression-contents{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price-wrapper{
+    font-size: 18px;
+}
+
+.price ol{
+    margin-bottom: 40px;
+}
+
+.first-number{
+    font-size: 18px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    border-bottom: 3px solid #000000;
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.first-number:before{
+    position: absolute;
+    bottom: -14px;
+    left: 1em;
+    width: 0;
+    height: 0;
+    content: '';
+    border-width: 14px 12px 0 12px;
+    border-style: solid;
+    border-color: #000000 transparent transparent transparent;
+}
+
+.first-number:after{
+    position: absolute;
+    bottom: -10px;
+    left: 1em;
+    width: 0;
+    height: 0;
+    content: '';
+    border-width: 14px 12px 0 12px;
+    border-style: solid;
+    border-color: #f9f9f9 transparent transparent transparent;
+}
+
+
+.second-number{
+    font-size: 18px;
+    position: relative;
+    padding: 0.3rem 1rem;
+    border-bottom: 3px solid #000000;
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.second-number:before{
+    position: absolute;
+    bottom: -14px;
+    left: 1em;
+    width: 0;
+    height: 0;
+    content: '';
+    border-width: 14px 12px 0 12px;
+    border-style: solid;
+    border-color: #000000 transparent transparent transparent;
+}
+
+.second-number:after{
+    position: absolute;
+    bottom: -10px;
+    left: 1em;
+    width: 0;
+    height: 0;
+    content: '';
+    border-width: 14px 12px 0 12px;
+    border-style: solid;
+    border-color: #f9f9f9 transparent transparent transparent;
+}
+
+.fin{
+    padding-bottom: 100px;
+}
